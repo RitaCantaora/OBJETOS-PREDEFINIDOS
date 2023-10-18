@@ -25,6 +25,6 @@ for (var i = 0; i < palabras.length; i++) {
     var inv = girarPalabra(palabras[i]);
     resultado = resultado + ' ' + inv;
 }
-console.log(resultado);
+alert(resultado);
 
 
