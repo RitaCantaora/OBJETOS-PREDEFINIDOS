@@ -5,7 +5,7 @@ function generaAleatorio(min, max) {
 function generaNAleatorios(cantidad, min, max) {
     const numeros = [];
     for (let i = 0; i < cantidad; i++) {
-        numeros.push(generaAleatorio(min, max));
+        numeros.push(generaAleatorio(min, max)); 
     }
     return numeros;
 }
